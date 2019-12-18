@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		3D7298FB23A82AB60048E68E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7298FA23A82AB60048E68E /* AppDelegate.swift */; };
 		3D7298FD23A82AB60048E68E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7298FC23A82AB60048E68E /* SceneDelegate.swift */; };
-		3D7298FF23A82AB60048E68E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7298FE23A82AB60048E68E /* ViewController.swift */; };
 		3D72990223A82AB60048E68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D72990023A82AB60048E68E /* Main.storyboard */; };
 		3D72990423A82AB70048E68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D72990323A82AB70048E68E /* Assets.xcassets */; };
 		3D72990723A82AB70048E68E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D72990523A82AB70048E68E /* LaunchScreen.storyboard */; };
+		3D72990F23A82D6E0048E68E /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72990E23A82D6E0048E68E /* DogViewController.swift */; };
+		3D72991123A83B0A0048E68E /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D72991023A83B0A0048E68E /* DogImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D7298F723A82AB60048E68E /* Dogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D7298FA23A82AB60048E68E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D7298FC23A82AB60048E68E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D7298FE23A82AB60048E68E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D72990123A82AB60048E68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D72990323A82AB70048E68E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D72990623A82AB70048E68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D72990823A82AB70048E68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D72990E23A82D6E0048E68E /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		3D72991023A83B0A0048E68E /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				3D7298FA23A82AB60048E68E /* AppDelegate.swift */,
 				3D7298FC23A82AB60048E68E /* SceneDelegate.swift */,
-				3D7298FE23A82AB60048E68E /* ViewController.swift */,
+				3D72990E23A82D6E0048E68E /* DogViewController.swift */,
+				3D72991023A83B0A0048E68E /* DogImage.swift */,
 				3D72990023A82AB60048E68E /* Main.storyboard */,
 				3D72990323A82AB70048E68E /* Assets.xcassets */,
 				3D72990523A82AB70048E68E /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D7298FF23A82AB60048E68E /* ViewController.swift in Sources */,
 				3D7298FB23A82AB60048E68E /* AppDelegate.swift in Sources */,
 				3D7298FD23A82AB60048E68E /* SceneDelegate.swift in Sources */,
+				3D72991123A83B0A0048E68E /* DogImage.swift in Sources */,
+				3D72990F23A82D6E0048E68E /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
